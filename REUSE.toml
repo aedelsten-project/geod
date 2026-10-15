@@ -1,0 +1,13 @@
+version = 1
+
+# Files that cannot carry a header comment.
+[[annotations]]
+path = ["README.md", "docs/**", "CITATION.bib", "Cargo.toml", "Cargo.lock", ".gitignore", "REUSE.toml"]
+SPDX-FileCopyrightText = "2026 Ernst D. Larsson"
+SPDX-License-Identifier = "MIT"
+
+# Test structure from the Materials Project (materialsproject.org).
+[[annotations]]
+path = "tests/data/Y2O3.cif"
+SPDX-FileCopyrightText = "The Materials Project"
+SPDX-License-Identifier = "CC-BY-4.0"

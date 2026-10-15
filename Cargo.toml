@@ -1,0 +1,11 @@
+[package]
+name = "geod"
+version = "1.0.0"
+edition = "2024"
+description = "Electrostatic embedding of ionic crystals from CIF files (moment-cancelled point-charge fields, QM and AIMP regions)"
+authors = ["Ernst D. Larsson <ernst.d.larsson@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0.229", features = ["derive"] }
+toml = "1.1.8"

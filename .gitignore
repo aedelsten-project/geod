@@ -1,0 +1,8 @@
+# Build output
+/target
+
+# Never commit papers (publisher copyright) or run output
+*.pdf
+*.inp
+*.xfield
+/stdout
